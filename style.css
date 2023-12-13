@@ -1,86 +1,68 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-  background-color: #5DD9C1;
-  text-align: center;
-  
+html {
+    font-size: 62.5%;
 }
-html{
-  font-size: 62.5%;
+body {
+    background-color: #5dd9c1;
 }
-.container{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap:2rem;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-h1{
-  padding: 20px 10px;
-  font-size: 2.5rem;
-  color:#111344;
+h1 {
+    margin: 2rem;
+    font-size: 2.5rem;
 }
-.msg-container{
-  padding:2rem 1rem;
-  font-size: 2rem;
+.msg-container {
+    padding: 2rem 1rem;
+    margin: 2rem;
 }
-.hide{
-  display:none;
+#msg {
+    font-size: 2rem;
+    text-transform: uppercase;
 }
-
-.btn-container{
-  height:30vh;
-  width:60vw;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap:0.6rem;
+.hide {
+    display: none;
 }
-.cont{
-  width:20rem;
+.btn-container {
+    height: fit-content;
 }
-.btn{
-  width:6rem;
-  aspect-ratio:1;
-  border-radius: 0.8rem;
-  border:none;
-  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-  background-color: #EFE9E7;
-  text-align: center;
-  font-size: 3.5rem;
-  color:#000;
+.btn {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 0.6rem;
+    outline: none;
+    border: none;
+    margin: 0.2rem;
+    background-color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
 }
-#reset-btn{
-  position: absolute;
-  top:50rem;
-  margin:1rem;
-  padding:1rem 2rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
-  border:none;
-  outline:none;
-  color:#fff;
-  background-color: #000007;
+#reset-btn {
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10rem;
+    margin-top: 1rem;
 }
-a{
-  font-size: 2rem;
-  text-decoration:none;
-  color:#000;
-  font-weight: bold;
-  position: absolute;
-  top:65rem;
-}
-
-@media (min-width: 600px){
-  html{
-    font-size: 125%;
-  }
-  .btn-container{
-    height: 20vh;
-    width:40vw;
-  }
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    bottom: 2rem;
 }
